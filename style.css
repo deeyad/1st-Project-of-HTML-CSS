@@ -1,14 +1,12 @@
-*
-{
-margin: 0;
-padding: 0;
+* {
+    margin: 0;
+    padding: 0;
 }
-
 header{
-background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(images/Img1.jpg);
-height: 100vh;
-background-size: cover;
-background-position: center;
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(images/Img1.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
 }
 .main-nav{
     float: right;
@@ -17,24 +15,21 @@ background-position: center;
 }
 .main-nav li{
     display: inline-block;
-    
 }
 .main-nav li a{
     color: white;
     padding: 5px 20px;
     font-family: "Roboto", sans-serif;
     text-decoration: none;
-    
 }
 .main-nav li.active a{
-border: 1px solid white;
-background-color: darkorange;
+    border: 1px solid white;
+    background-color: darkorange;
 }
 .main-nav li a:hover{
     border: 1px solid white;
     background-color: darkorange;
     transition: all 0.5s ease-in;
-
 }
 .logo img{
     float: left;
@@ -51,15 +46,14 @@ background-color: darkorange;
     margin-left: 0;
     margin-top: 0;
 }
-
 h1{
     color: whitesmoke;
-text-transform: uppercase;
-font-size: 70px;
-margin-top: 700px;
-margin-left: 450px;
-text-align: center;
-font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+    text-transform: uppercase;
+    font-size: 70px;
+    margin-top: 700px;
+    margin-left: 450px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif 
 }
 .button{
     margin-top: 100px;
@@ -75,11 +69,11 @@ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
     text-transform: uppercase;
 }
 .btn-one{
-    background-color: darkorange;  
-    font-family: "Roboto",sans-serif;  
+    background-color: darkorange;
+    font-family: "Roboto",sans-serif;
 }
 .btn-two{
-    font-family: "Roboto",sans-serif;  
+    font-family: "Roboto",sans-serif;
 }
 .btn-two:hover{
     background-color: darkorange;
